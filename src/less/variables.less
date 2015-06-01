@@ -107,7 +107,7 @@
 @border-radius-small:       3px;
 
 //** Global color for active items (e.g., navs or dropdowns).
-@component-active-color:    #fff;
+@component-active-color:    @gris-text; // #fff;
 //** Global background color for active items (e.g., navs or dropdowns).
 @component-active-bg:       @gris;
 
@@ -146,7 +146,7 @@
 
 @btn-default-color:              @gris-text;
 @btn-default-bg:                 transparent;
-@btn-default-border:             transparent;
+@btn-default-border:             @gris;
 
 @btn-primary-color:              @gris-text;
 @btn-primary-bg:                 @gris;
@@ -357,7 +357,7 @@
 
 @navbar-default-color:             @gris-text;
 @navbar-default-bg:                @gris;
-@navbar-default-border:            transparent;
+@navbar-default-border:            @gris; //transparent;
 
 // Navbar links
 @navbar-default-link-color:                @gris-text;
@@ -422,7 +422,7 @@
 @nav-tabs-link-hover-border-color:          @gray-lighter;
 
 @nav-tabs-active-link-hover-bg:             @body-bg;
-@nav-tabs-active-link-hover-color:          @gris;
+@nav-tabs-active-link-hover-color:          @gris-text;
 @nav-tabs-active-link-hover-border-color:   @gray-lighter;
 
 @nav-tabs-justified-link-border-color:            @gray-lighter;
@@ -569,6 +569,7 @@
 
 //** Default label text color
 @label-color:                 #fff;
+@label-color-active:                 @gris-text;
 //** Default text color of a linked label
 @label-link-hover-color:      #fff;
 
@@ -668,7 +669,7 @@
 //** Background color of single list items on hover
 @list-group-hover-bg:           @gray-lighter;
 //** Text color of active list items
-@list-group-active-color:       @component-active-color;
+@list-group-active-color:       @gris-text; // @component-active-color;
 //** Background color of active list items
 @list-group-active-bg:          @component-active-bg;
 //** Border color of active list elements
@@ -706,7 +707,7 @@
 @panel-default-border:        @gray-lighter;
 @panel-default-heading-bg:    @gray-lighter;
 
-@panel-primary-text:          #fff;
+@panel-primary-text:          @gris-text;
 @panel-primary-border:        @gris;
 @panel-primary-heading-bg:    @gris;
 
@@ -758,13 +759,13 @@
 //
 //##
 
-@badge-color:                 #fff;
+@badge-color:                 @gris-text;
 //** Linked badge text color on hover
-@badge-link-hover-color:      #fff;
+@badge-link-hover-color:      @naranja;
 @badge-bg:                    @gris;
 
 //** Badge text color in active nav link
-@badge-active-color:          @gris;
+@badge-active-color:          @gris-text;
 //** Badge background color in active nav link
 @badge-active-bg:             #fff;
 
